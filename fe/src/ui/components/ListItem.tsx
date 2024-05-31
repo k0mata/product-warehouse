@@ -15,7 +15,7 @@ export const ListItem: FC<ListItemProps> = ({ name, isHazardous, sizePerUnit }):
           <p className="mt-1 truncate text-xs leading-5 text-gray-500">Size per unit: {sizePerUnit}</p>
         </div>
       </div>
-      <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
+      <div className="shrink-0 sm:flex sm:flex-col sm:items-end">
         <p className="text-sm leading-6 text-gray-900">{}</p>
         <div className="mt-1 flex items-center gap-x-1.5">
           <div className={`${isHazardous ? 'bg-yellow-500/20' : 'bg-emerald-500/20'} flex-none rounded-full p-1`}>

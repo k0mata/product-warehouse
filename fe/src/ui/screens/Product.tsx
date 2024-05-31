@@ -5,9 +5,9 @@ import { AddProductForm } from '../components/AddProductForm.tsx';
 
 export const Product: FC = (): JSX.Element => {
   return (
-    <>
+    <div>
       <AddProductForm/>
       <ProductsList/>
-    </>
+    </div>
   );
 };
