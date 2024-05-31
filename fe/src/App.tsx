@@ -2,11 +2,11 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route, Navigate
 } from 'react-router-dom';
 
 import { Product } from './ui/screens/Product.tsx';
-import { ProductsList } from './ui/components/ProductsList.tsx';
+import { Warehouses } from './ui/screens/Warehouses.tsx';
 
 import './App.css';
 
@@ -14,9 +14,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Product/>}/>
+        <Route path="/products" element={<Product/>}/>
 
-        <Route path="/list" element={<ProductsList/>}/>
+        <Route path="/warehouses" element={<Warehouses/>}/>
+
+        <Route
+          path="/"
+          element={<Navigate to="/products" replace={true}/>}
+        />
       </Routes>
     </Router>
   );
