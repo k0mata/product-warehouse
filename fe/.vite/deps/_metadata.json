@@ -1,0 +1,31 @@
+{
+  "hash": "22935256",
+  "configHash": "a4f83043",
+  "lockfileHash": "666d79b2",
+  "browserHash": "f3da92ee",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "060908a6",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "da92ed60",
+      "needsInterop": true
+    },
+    "@tanstack/react-query": {
+      "src": "../../node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "9984caf8",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-EDSKAOYM": {
+      "file": "chunk-EDSKAOYM.js"
+    }
+  }
+}
